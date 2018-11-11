@@ -29,6 +29,14 @@ PRODUCT_PACKAGES += \
         GVM-URM-R \
         GVM-URM-S
 
+# QS header styles
+PRODUCT_PACKAGES += \
+    QSHeaderBlack \
+    QSHeaderGrey \
+    QSHeaderLightGrey \
+    QSHeaderAccent \
+    QSHeaderTransparent
+
 # Themes
 PRODUCT_PACKAGES += \
     DarkGreySystemOverlay \
