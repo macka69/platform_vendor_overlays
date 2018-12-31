@@ -67,3 +67,6 @@ include vendor/overlays/Gvm/gvm.mk
 
 #Rounded Corner Styles
 include vendor/overlays/rounded/rounded.mk
+
+# Cutout control overlays
+include vendor/overlays/NotchCity/NotchCity.mk
