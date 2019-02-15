@@ -69,4 +69,5 @@ PRODUCT_PACKAGES += \
     QStileWavey \
     QStileSquaremedo \
     QStileInkDrop \
-    QStileCookie
+    QStileCookie \
+    QStilesCircleOutline
