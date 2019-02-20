@@ -53,4 +53,5 @@ PRODUCT_PACKAGES += \
     SwitchStock \
     Contained \
     Retro \
-    Narrow
+    Narrow \
+    SwitchTelegram
