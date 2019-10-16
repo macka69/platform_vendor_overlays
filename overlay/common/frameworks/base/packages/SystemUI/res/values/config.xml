@@ -40,4 +40,8 @@
 
     <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
     <integer name="config_showUsbPortAlarm">1</integer>
+
+    <string name="quick_settings_tiles_default" translatable="false">
+        wifi,cell,battery,dnd,flashlight,rotation,bt,airplane,nfc,location,hotspot,saver,dark,night,dataswitch,gaming,screenshot,sound,weather
+    </string>
 </resources>
