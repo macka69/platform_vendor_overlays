@@ -20,6 +20,11 @@ DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common
 # Allow overlays to be excluded from enforcing RRO
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay/common
 
+PRODUCT_PACKAGES += \
+	GVM-PG-IOS \
+	GVM-URM-L3 \
+	GVM-URM-M \
+	GVM-URM-M2
 # Themes
 PRODUCT_PACKAGES += \
     DarkGreySystemOverlay \
