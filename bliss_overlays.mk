@@ -86,18 +86,6 @@ endif
 #endif
 #endif
 
-# Navbar
-PRODUCT_PACKAGES += \
-    GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium \
-    GesturalNavigationOverlayHidden
-
-# Pill radius
-PRODUCT_PACKAGES += \
-    GesturalNavigationRadiusLow \
-    GesturalNavigationRadiusVeryLow \
-    GesturalNavigationRadiusHidden
-
 # QS Tile styles
 include vendor/overlays/QSThemes/QSThemes.mk
 
@@ -119,3 +107,6 @@ include vendor/overlays/switch/switches.mk
 
 # Statusbar Icons Themes
 include vendor/overlays/icons/icons.mk
+
+# Navbar styles
+include vendor/overlays/navbar/navbar.mk
