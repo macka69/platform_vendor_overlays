@@ -81,4 +81,7 @@
     <!-- 2dp -->
     <dimen name="system_icons_keyguard_padding_end">12dp</dimen>
 
+    <!-- Size of the edge panel arrow -->
+    <dimen name="navigation_edge_panel_height">20dp</dimen>
+
 </resources>
