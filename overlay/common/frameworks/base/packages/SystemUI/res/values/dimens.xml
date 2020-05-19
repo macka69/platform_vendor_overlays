@@ -73,4 +73,8 @@
     <!-- 12dp -->
     <dimen name="header_subtitle_padding">8dp</dimen>
 
+    <!-- quick qs drag handle height -->
+    <!-- 5dp -->
+    <dimen name="quick_qs_drag_handle_height">0dp</dimen>
+
 </resources>
