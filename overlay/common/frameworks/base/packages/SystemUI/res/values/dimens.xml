@@ -77,4 +77,8 @@
     <!-- 5dp -->
     <dimen name="quick_qs_drag_handle_height">0dp</dimen>
 
+    <!-- Margin on the right side of the system icon group on Keyguard. -->
+    <!-- 2dp -->
+    <dimen name="system_icons_keyguard_padding_end">12dp</dimen>
+
 </resources>
