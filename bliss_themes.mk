@@ -21,10 +21,14 @@ DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay/common
 
 PRODUCT_PACKAGES += \
-	GVM-PG-IOS \
-	GVM-URM-L3 \
-	GVM-URM-M \
-	GVM-URM-M2
+        GVM-SBH-L \
+        GVM-SBH-M \
+        GVM-SBH-XL \
+        GVM-URM-M \
+        GVM-URM-L \
+        GVM-URM-R \
+        GVM-URM-S
+
 # Themes
 PRODUCT_PACKAGES += \
     DarkGreySystemOverlay \
