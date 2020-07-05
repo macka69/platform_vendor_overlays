@@ -45,6 +45,7 @@ PRODUCT_PACKAGES += \
     PrimaryColorLeadBlackOverlay \
     PrimaryColorSolarizedDarkOverlay \
     PrimaryFlameOverlay \
+    PrimaryEtherealOverlay \
     PrimaryColorOneplusDarkOverlay
 
 # Switch themes
