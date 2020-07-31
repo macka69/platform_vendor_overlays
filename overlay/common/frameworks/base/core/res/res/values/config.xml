@@ -275,7 +275,7 @@
     <string name="config_defaultAttentionService">com.google.android.as/com.google.android.apps.miphone.aiai.attention.service.AiAiAttentionService</string>
 
     <!-- The name of the package that will hold the dialer role by default. -->
-    <string name="config_defaultDialer">com.google.android.dialer</string>
+    <string name="config_defaultDialer">com.android.dialer</string>
 
     <string name="config_defaultGallery">com.google.android.apps.photos</string>
     <string name="config_defaultMusic">com.google.android.music</string>
