@@ -278,7 +278,7 @@
     <string name="config_defaultDialer">com.android.dialer</string>
 
     <string name="config_defaultGallery">com.google.android.apps.photos</string>
-    <string name="config_defaultMusic">com.google.android.music</string>
+    <string name="config_defaultMusic">org.lineageos.eleven</string>
 
     <!-- Package name for the device provisioning package. -->
     <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
