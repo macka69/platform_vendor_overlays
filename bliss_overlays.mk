@@ -70,3 +70,9 @@ endif
 
 # Cutout control overlays
 #include vendor/overlays/NotchCity/NotchCity.mk
+
+# Overlays
+PRODUCT_PACKAGES += \
+    CustomConfigOverlay \
+    CustomLauncherOverlay \
+    CustomSettingsOverlay
