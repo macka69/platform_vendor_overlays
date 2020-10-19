@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-# Overlays
+# Common Overlays
 DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common
 
 # Allow overlays to be excluded from enforcing RRO
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay/common
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay
 
 #PRODUCT_PACKAGES += \
 #        GVM-SBH-L \
@@ -121,3 +121,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay/common
 #    QStileDiamond \
 #    QStileIconAccent
 
+# Gapps overlays
+ifeq ($(BLISS_BUILD_VARIANT), gapps)
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/themes/overlay/gapps
+endif
