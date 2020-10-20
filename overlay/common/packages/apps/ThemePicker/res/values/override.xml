@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 The CyanogenMod Project
+<!--
+
+     Copyright (C) 2018 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,10 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources>
-    <!-- Configures the voicemail number for this MCC/MNC pair //-->
-    <string-array translatable="false" name="config_default_vm_number">
-        <item>200</item>
-    </string-array>
+    <string name="themes_stub_package" translatable="false">com.google.android.apps.customization.pixel</string>
+
 </resources>
