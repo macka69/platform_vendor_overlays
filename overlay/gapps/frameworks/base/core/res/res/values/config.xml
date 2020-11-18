@@ -115,6 +115,9 @@
     <!-- The name of the package that will hold the dialer role by default. -->
     <string name="config_defaultDialer" translatable="false">com.google.android.dialer</string>
 
+    <!-- The name of the package that will hold the call screening role by default. -->
+    <string name="config_defaultCallScreening" translatable="false">com.google.android.dialer</string>
+
     <!-- Flag indicating whether the assist disclosure can be disabled using
          ASSIST_DISCLOSURE_ENABLED. -->
     <bool name="config_allowDisablingAssistDisclosure">true</bool>
