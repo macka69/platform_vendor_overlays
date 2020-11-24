@@ -15,10 +15,10 @@
 #
 
 # Common Overlays
-DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common
+DEVICE_PACKAGE_OVERLAYS += vendor/overlays/overlay/common
 
 # Allow overlays to be excluded from enforcing RRO
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay
 
 #PRODUCT_PACKAGES += \
 #        GVM-SBH-L \
@@ -60,7 +60,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay
 
 # fonts
 #PRODUCT_COPY_FILES += \
-#    $(call find-copy-subdir-files,*,vendor/themes/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+#    $(call find-copy-subdir-files,*,vendor/overlays/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
 # Gradient
 #PRODUCT_PACKAGES += \
@@ -124,5 +124,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay
 # Gapps overlays
 ifeq ($(BLISS_BUILD_VARIANT), gapps)
 DEVICE_PACKAGE_OVERLAYS += \
-    vendor/themes/overlay/gapps
+    vendor/overlays/overlay/gapps
 endif
+
