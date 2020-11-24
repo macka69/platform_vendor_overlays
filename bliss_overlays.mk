@@ -127,3 +127,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     vendor/overlays/overlay/gapps
 endif
 
+ifneq ($(filter blueline bonito coral crosshatch sunfish taimen,$(BLISS_BUILD)),)
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/overlays/overlay/pixel
+endif
