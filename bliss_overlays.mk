@@ -18,7 +18,7 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/overlays/overlay/common
 
 # Allow overlays to be excluded from enforcing RRO
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 
 #PRODUCT_PACKAGES += \
 #        GVM-SBH-L \
@@ -125,9 +125,15 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay
 ifeq ($(BLISS_BUILD_VARIANT), gapps)
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/overlays/overlay/gapps
+
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/gapps
 endif
 
+ifeq ($(BLISS_BUILD_VARIANT), gapps)
 ifneq ($(filter blueline bonito coral crosshatch sunfish taimen,$(BLISS_BUILD)),)
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/overlays/overlay/pixel
+
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/pixel
+endif
 endif
