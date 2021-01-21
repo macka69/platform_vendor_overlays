@@ -28,7 +28,11 @@ PRODUCT_PACKAGES += \
         GVM-URM-M \
         GVM-URM-L \
         GVM-URM-R \
-        GVM-URM-S
+        GVM-URM-S \
+        GVM-PGM-ORCD \
+        GVM-PGM-OPRD \
+        GVM-PGM-PURP
+
 
 # Navbar Themes
 #PRODUCT_PACKAGES += \
