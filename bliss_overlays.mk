@@ -143,3 +143,9 @@ PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
     GesturalNavigationOverlayMedium \
     GesturalNavigationOverlayHidden
+
+# Pill radius
+PRODUCT_PACKAGES += \
+    GesturalNavigationRadiusLow \
+    GesturalNavigationRadiusVeryLow \
+    GesturalNavigationRadiusHidden
