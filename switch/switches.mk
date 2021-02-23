@@ -20,4 +20,5 @@ PRODUCT_PACKAGES += \
     Contained \
     Telegram \
     Retro \
-    MD2
+    MD2 \
+    OOS
