@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2018-2019 The BlissRoms Project
+#  Copyright 2021 NezukoOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+#     http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -14,21 +14,21 @@
 # limitations under the License.
 #
 
-# GVM
-PRODUCT_PACKAGES += \
-    GVM-SBH-L \
-    GVM-SBH-M \
-    GVM-SBH-XL \
-    GVM-URM-M \
-    GVM-URM-L \
-    GVM-URM-R \
-    GVM-URM-S \
-    GVM-PGM-ORCD \
-    GVM-PGM-OPRD \
-    GVM-PGM-PURP \
-    GVM-PGM-ACCENT
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
 
-# QS Header size
-PRODUCT_PACKAGES += \
-    headerlargeOverlay \
-    headerxlargeOverlay
+LOCAL_RRO_THEME := headerlarge
+
+LOCAL_PRODUCT_MODULE := true
+
+LOCAL_SRC_FILES := $(call all-subdir-java-files)
+
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
+
+LOCAL_PACKAGE_NAME := headerlargeOverlay
+
+LOCAL_PRIVILEGED_MODULE := true
+
+LOCAL_CERTIFICATE := platform
+LOCAL_SDK_VERSION := current
+include $(BUILD_RRO_PACKAGE)

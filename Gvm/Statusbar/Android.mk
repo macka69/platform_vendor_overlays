@@ -14,21 +14,4 @@
 # limitations under the License.
 #
 
-# GVM
-PRODUCT_PACKAGES += \
-    GVM-SBH-L \
-    GVM-SBH-M \
-    GVM-SBH-XL \
-    GVM-URM-M \
-    GVM-URM-L \
-    GVM-URM-R \
-    GVM-URM-S \
-    GVM-PGM-ORCD \
-    GVM-PGM-OPRD \
-    GVM-PGM-PURP \
-    GVM-PGM-ACCENT
-
-# QS Header size
-PRODUCT_PACKAGES += \
-    headerlargeOverlay \
-    headerxlargeOverlay
+include $(call all-subdir-makefiles)
