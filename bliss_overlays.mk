@@ -113,3 +113,7 @@ include vendor/overlays/primary/primary_colors.mk
 # Fonts
 PRODUCT_PACKAGES += \
     Custom-Fonts
+
+# Switch Themes
+include vendor/overlays/switch/switches.mk
+

@@ -18,8 +18,8 @@
     <item android:state_checked="true">
         <shape android:visible="true" android:shape="rectangle" android:useLevel="false">
         <gradient 
-            android:startColor="@*android:color/gradient_start"
-            android:endColor="@*android:color/gradient_end"
+            android:startColor="@*android:color/accent_device_default"
+            android:endColor="@*android:color/accent_device_default"
             android:angle="45"/>
             <corners android:radius="25dp" />
             <size android:height="21dp" android:width="25dp" />
