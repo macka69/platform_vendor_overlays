@@ -129,11 +129,11 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/gapps
 endif
 
-ifeq ($(BLISS_BUILD_VARIANT), gapps)
-ifneq ($(filter blueline bonito coral crosshatch sunfish taimen,$(BLISS_BUILD)),)
-DEVICE_PACKAGE_OVERLAYS += \
-    vendor/overlays/overlay/pixel
-
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/pixel
-endif
-endif
+#ifeq ($(BLISS_BUILD_VARIANT), gapps)
+#ifneq ($(filter blueline bonito coral crosshatch sunfish taimen,$(BLISS_BUILD)),)
+#DEVICE_PACKAGE_OVERLAYS += \
+#    vendor/overlays/overlay/pixel
+#
+#PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/pixel
+#endif
+#endif
