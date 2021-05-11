@@ -46,8 +46,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 #    QSHeaderTransparent
 
 # Fonts
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/overlays/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+#PRODUCT_COPY_FILES += \
+#    $(call find-copy-subdir-files,*,vendor/overlays/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
 # Gradient
 #PRODUCT_PACKAGES += \
@@ -103,3 +103,7 @@ include vendor/overlays/themes/backgrounds/system_themes.mk
 
 # Primary Colors
 include vendor/overlays/primary/primary_colors.mk
+
+# Fonts
+PRODUCT_PACKAGES += \
+    Custom-Fonts
