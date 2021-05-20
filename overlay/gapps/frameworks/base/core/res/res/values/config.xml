@@ -159,7 +159,7 @@
          handle wallpaper cropping.-->
     <string name="config_wallpaperCropperPackage" translatable="false">com.google.android.apps.wallpaper</string>
 
-    <string name="default_wallpaper_component">com.breel.wallpapers20a/com.breel.wallpapers20a.gradient.wallpaper.GradientWallpaper</string>
+    <string name="default_wallpaper_component">com.android.customization/com.android.customization.picker.CustomizationPickerActivity</string>
 
     <string name="config_defaultContentCaptureService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService</string>
 
