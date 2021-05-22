@@ -137,3 +137,15 @@ endif
 #PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/pixel
 #endif
 #endif
+
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden
+
+# Pill radius
+PRODUCT_PACKAGES += \
+    GesturalNavigationRadiusLow \
+    GesturalNavigationRadiusVeryLow \
+    GesturalNavigationRadiusHidden
