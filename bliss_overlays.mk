@@ -122,3 +122,6 @@ PRODUCT_PACKAGES += \
 
 # QS Tile styles
 include vendor/overlays/QSThemes/QSThemes.mk
+
+# Accents
+include vendor/overlays/accents/accents.mk
