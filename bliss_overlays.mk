@@ -46,17 +46,17 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 #    QSHeaderTransparent
 
 # Themes
-#PRODUCT_PACKAGES += \
-#    DarkGreySystemOverlay \
-#    DarkGreySystemUIOverlay \
-#    PitchBlackSystemOverlay \
-#    PitchBlackSystemUIOverlay \
-#    SolarizedDarkSystemOverlay \
-#    SolarizedDarkSystemUIOverlay \
-#    MaterialOceanSystemOverlay \
-#    MaterialOceanSystemUIOverlay \
-#    XtendedClearSystemOverlay \
-#    XtendedClearSystemUIOverlay
+PRODUCT_PACKAGES += \
+    DarkGreySystemOverlay \
+    DarkGreySystemUIOverlay \
+    PitchBlackSystemOverlay \
+    PitchBlackSystemUIOverlay \
+    SolarizedDarkSystemOverlay \
+    SolarizedDarkSystemUIOverlay \
+    MaterialOceanSystemOverlay \
+    MaterialOceanSystemUIOverlay \
+    XtendedClearSystemOverlay \
+    XtendedClearSystemUIOverlay
 
 # fonts
 #PRODUCT_COPY_FILES += \
@@ -91,36 +91,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 #    StockSwitch \
 #    TelegramSwitch
 
-# QS Tile styles
-#PRODUCT_PACKAGES += \
-#    QStileCircleTrim \
-#    QStileDefault \
-#    QStileDualToneCircle \
-#    QStileSquircleTrim \
-#    QStileAttemptMountain \
-#    QStileDottedCircle \
-#    QStileNinja \
-#    QStilePokesign \
-#    QStileWavey \
-#    QStileSquaremedo \
-#    QStileInkDrop \
-#    QStileCookie \
-#    QStilesCircleOutline \
-#    QSTileCosmos \
-#    QSTileDividedCircle \
-#    QSTileNeonLight \
-#    QSTileOxygen \
-#    QSTileTriangles \
-#    QSTileSquircle \
-#    QSTileTearDrop \
-#    QStileBadge \
-#    QStileBadgetwo \
-#    QStileGear \
-#    QStileStar \
-#    QStileHexagon \
-#    QStileDiamond \
-#    QStileIconAccent
-
 # Gapps overlays
 ifeq ($(BLISS_BUILD_VARIANT), gapps)
 DEVICE_PACKAGE_OVERLAYS += \
@@ -149,3 +119,6 @@ PRODUCT_PACKAGES += \
     GesturalNavigationRadiusLow \
     GesturalNavigationRadiusVeryLow \
     GesturalNavigationRadiusHidden
+
+# QS Tile styles
+include vendor/overlays/QSThemes/QSThemes.mk
