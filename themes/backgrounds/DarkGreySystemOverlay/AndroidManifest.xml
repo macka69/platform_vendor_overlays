@@ -19,7 +19,7 @@
     package="com.android.theme.darkgrey.system"
     android:versionCode="1"
     android:versionName="1.0">
-    <overlay android:targetPackage="android" android:category="android.theme.customization.accent_color" android:priority="1"/>
+    <overlay android:targetPackage="android" android:category="android.theme.customization.system_theme" android:priority="1"/>
 
     <application android:label="DarkGreySystem" android:hasCode="false"/>
 </manifest>
