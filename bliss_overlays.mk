@@ -45,19 +45,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 #    QSHeaderAccent \
 #    QSHeaderTransparent
 
-# Themes
-PRODUCT_PACKAGES += \
-    DarkGreySystemOverlay \
-    DarkGreySystemUIOverlay \
-    PitchBlackSystemOverlay \
-    PitchBlackSystemUIOverlay \
-    SolarizedDarkSystemOverlay \
-    SolarizedDarkSystemUIOverlay \
-    MaterialOceanSystemOverlay \
-    MaterialOceanSystemUIOverlay \
-    XtendedClearSystemOverlay \
-    XtendedClearSystemUIOverlay
-
 # fonts
 #PRODUCT_COPY_FILES += \
 #    $(call find-copy-subdir-files,*,vendor/overlays/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
@@ -125,3 +112,6 @@ include vendor/overlays/QSThemes/QSThemes.mk
 
 # Accents
 include vendor/overlays/accents/accents.mk
+
+# System themes
+include vendor/overlays/themes/backgrounds/system_themes.mk
