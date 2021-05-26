@@ -23,12 +23,21 @@ PRODUCT_PACKAGES += \
     QStileNinja \
     QStilePokesign \
     QStileWavey \
-    QStileCookie \
-    QStileInkDrop \
     QStileSquaremedo \
-    QStileCosmos \
-    QStileDividedCircle \
-    QStileNeonLight \
-    QStileOxygen \
-    QStileTriangles \
-    QStileCircleOutline
+    QStileInkDrop \
+    QStileCookie \
+    QStilesCircleOutline \
+    QSTileCosmos \
+    QSTileDividedCircle \
+    QSTileNeonLight \
+    QSTileOxygen \
+    QSTileTriangles \
+    QSTileSquircle \
+    QSTileTearDrop \
+    QStileBadge \
+    QStileBadgetwo \
+    QStileGear \
+    QStileStar \
+    QStileHexagon \
+    QStileDiamond \
+    QStileIconAccent
