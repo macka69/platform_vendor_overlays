@@ -53,21 +53,6 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_PACKAGES += \
 #    AccentColorGradientIndianOverlay
 
-# Primary Themes
-#PRODUCT_PACKAGES += \
-#    PrimaryColorBlissBlackOverlay \
-#    PrimaryColorOceanOverlay \
-#    PrimaryColorNatureOverlay \
-#    PrimaryColorDarkBlueOverlay \
-#    PrimaryColorEyeSootherOverlay \
-#    PrimaryColorAlmostBlackOverlay \
-#    PrimaryColorCharcoalBlackOverlay \
-#    PrimaryColorLeadBlackOverlay \
-#    PrimaryColorSolarizedDarkOverlay \
-#    PrimaryFlameOverlay \
-#    PrimaryEtherealOverlay \
-#    PrimaryColorOneplusDarkOverlay
-
 # Switch themes
 #PRODUCT_PACKAGES += \
 #    ContainedSwitch \
@@ -115,3 +100,6 @@ include vendor/overlays/accents/accents.mk
 
 # System themes
 include vendor/overlays/themes/backgrounds/system_themes.mk
+
+# Primary Colors
+include vendor/overlays/primary/primary_colors.mk
