@@ -20,14 +20,15 @@ DEVICE_PACKAGE_OVERLAYS += vendor/overlays/overlay/common
 # Allow overlays to be excluded from enforcing RRO
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 
-#PRODUCT_PACKAGES += \
-#        GVM-SBH-L \
-#        GVM-SBH-M \
-#        GVM-SBH-XL \
-#        GVM-URM-M \
-#        GVM-URM-L \
-#        GVM-URM-R \
-#        GVM-URM-S
+# GVM
+PRODUCT_PACKAGES += \
+        GVM-SBH-L \
+        GVM-SBH-M \
+        GVM-SBH-XL \
+        GVM-URM-M \
+        GVM-URM-L \
+        GVM-URM-R \
+        GVM-URM-S
 
 # Navbar Themes
 #PRODUCT_PACKAGES += \
