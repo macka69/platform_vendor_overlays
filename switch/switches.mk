@@ -22,4 +22,5 @@ PRODUCT_PACKAGES += \
     Retro \
     MD2 \
     OOS \
-    Fluid
+    Fluid \
+    AndroidS
