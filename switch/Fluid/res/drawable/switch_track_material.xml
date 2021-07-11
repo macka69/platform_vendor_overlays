@@ -12,26 +12,12 @@
 -->
 
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_checked="false"
-          android:gravity="center_vertical|fill_horizontal"
-          android:start="4dp"
-          android:end="4dp">
+    <item android:gravity="center_vertical|fill_horizontal">
         <shape android:shape="rectangle"
                android:tint="@*android:color/switch_track_material">
-            <corners android:radius="7dp" />
-            <solid android:color="@*android:color/switch_track_material" />
-            <size android:height="14dp" />
-        </shape>
-    </item>
-    <item android:state_checked="true"
-          android:gravity="center_vertical|fill_horizontal"
-          android:start="4dp"
-          android:end="4dp">
-        <shape android:shape="rectangle"
-               android:tint="@*android:color/switch_track_material">
-            <corners android:radius="7dp" />
-            <solid android:color="?android:colorControlActivated"/>
-            <size android:height="14dp" />
+            <corners android:radius="24dp" />
+            <solid android:color="@*android:color/white_disabled_material" />
+            <size android:height="20dp" android:width="24dp" />
         </shape>
     </item>
 </layer-list>

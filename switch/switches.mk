@@ -1,5 +1,4 @@
-#
-# Copyright (C) 2018-2021 The BlissRoms Project
+# Copyright (C) 2014-2021 BlissRoms Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,6 +11,16 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-include $(call all-subdir-makefiles)
+# Switch themes
+PRODUCT_PACKAGES += \
+    AOSP \
+    OnePlus \
+    Narrow \
+    Contained \
+    Telegram \
+    Retro \
+    MD2 \
+    OOS \
+    Fluid \
+    AndroidS
