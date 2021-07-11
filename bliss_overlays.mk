@@ -117,3 +117,5 @@ PRODUCT_PACKAGES += \
 # Switch Themes
 include vendor/overlays/switch/switches.mk
 
+# Statusbar Icons Themes
+include vendor/overlays/icons/icons.mk
