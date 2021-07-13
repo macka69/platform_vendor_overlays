@@ -20,55 +20,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/overlays/overlay/common
 # Allow overlays to be excluded from enforcing RRO
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/common
 
-# GVM
-PRODUCT_PACKAGES += \
-        GVM-SBH-L \
-        GVM-SBH-M \
-        GVM-SBH-XL \
-        GVM-URM-M \
-        GVM-URM-L \
-        GVM-URM-R \
-        GVM-URM-S \
-        GVM-PGM-ORCD \
-        GVM-PGM-OPRD \
-        GVM-PGM-PURP \
-        GVM-PGM-ACCENT
-
-
-# Navbar Themes
-#PRODUCT_PACKAGES += \
-#    StockAsusOverlay \
-#   NavbarAsusOverlay \
-#    NavbarOnePlusOverlay \
-#    NavbarOneUiOverlay \
-#    NavbarTecnoCamonOverlay
-
-# QS header styles
-#PRODUCT_PACKAGES += \
-#    QSHeaderBlack \
-#    QSHeaderGrey \
-#    QSHeaderLightGrey \
-#    QSHeaderAccent \
-#    QSHeaderTransparent
-
-# Fonts
-#PRODUCT_COPY_FILES += \
-#    $(call find-copy-subdir-files,*,vendor/overlays/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
-
-# Gradient
-#PRODUCT_PACKAGES += \
-#    AccentColorGradientIndianOverlay
-
-# Switch themes
-#PRODUCT_PACKAGES += \
-#    ContainedSwitch \
-#    MD2Switch \
-#    NarrowSwitch \
-#    OnePlusSwitch \
-#    RetroSwitch \
-#    StockSwitch \
-#    TelegramSwitch
-
 # Gapps overlays
 ifeq ($(BLISS_BUILD_VARIANT), gapps)
 DEVICE_PACKAGE_OVERLAYS += \
@@ -110,3 +61,6 @@ include vendor/overlays/icons/icons.mk
 
 # Navbar styles
 include vendor/overlays/navbar/navbar.mk
+
+# Gvm styles
+include vendor/overlays/Gvm/gvm.mk
