@@ -64,3 +64,6 @@ include vendor/overlays/navbar/navbar.mk
 
 # Gvm styles
 include vendor/overlays/Gvm/gvm.mk
+
+#Rounded Corner Styles
+include vendor/overlays/rounded/rounded.mk
