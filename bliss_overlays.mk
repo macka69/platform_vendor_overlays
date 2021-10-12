@@ -38,35 +38,35 @@ endif
 #endif
 
 # QS Tile styles
-include vendor/overlays/QSThemes/QSThemes.mk
+#include vendor/overlays/QSThemes/QSThemes.mk
 
 # Accents
-include vendor/overlays/accents/accents.mk
+#include vendor/overlays/accents/accents.mk
 
 # System themes
-include vendor/overlays/themes/backgrounds/system_themes.mk
+#include vendor/overlays/themes/backgrounds/system_themes.mk
 
 # Primary Colors
-include vendor/overlays/primary/primary_colors.mk
+#include vendor/overlays/primary/primary_colors.mk
 
 # Fonts
-PRODUCT_PACKAGES += \
-    Custom-Fonts
+#PRODUCT_PACKAGES += \
+#    Custom-Fonts
 
 # Switch Themes
-include vendor/overlays/switch/switches.mk
+#include vendor/overlays/switch/switches.mk
 
 # Statusbar Icons Themes
-include vendor/overlays/icons/icons.mk
+#include vendor/overlays/icons/icons.mk
 
 # Navbar styles
-include vendor/overlays/navbar/navbar.mk
+#include vendor/overlays/navbar/navbar.mk
 
 # Gvm styles
-include vendor/overlays/Gvm/gvm.mk
+#include vendor/overlays/Gvm/gvm.mk
 
 #Rounded Corner Styles
-include vendor/overlays/rounded/rounded.mk
+#include vendor/overlays/rounded/rounded.mk
 
 # Cutout control overlays
-include vendor/overlays/NotchCity/NotchCity.mk
+#include vendor/overlays/NotchCity/NotchCity.mk
