@@ -26,6 +26,23 @@ DEVICE_PACKAGE_OVERLAYS += \
     vendor/overlays/overlay/gapps
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlays/overlay/gapps
+
+# Google Overlays
+PRODUCT_PACKAGES += \
+    CaptivePortalLoginOverlay \
+    CellBroadcastServiceOverlay \
+    GoogleConfigOverlay \
+    GooglePermissionControllerOverlay \
+    GoogleWebViewOverlay \
+    ManagedProvisioningPixelOverlay \
+    ManagedProvisioningPixelOverlay \
+    PixelConfigOverlay2018 \
+    PixelConfigOverlay2019 \
+    PixelConfigOverlay2019Midyear \
+    PixelConfigOverlayCommon \
+    PixelSetupWizardOverlayAosp \
+    PixelTetheringOverlay \
+    SettingsGoogleOverlayAosp
 endif
 
 #ifeq ($(BLISS_BUILD_VARIANT), gapps)
