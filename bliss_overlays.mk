@@ -70,6 +70,12 @@ endif
 #PRODUCT_PACKAGES += \
 #    Custom-Fonts
 
+# Copy fonts to system
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/overlays/prebuilt,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+
+# Includes fonts
+include vendor/overlays/prebuilt/fonts.mk
+
 # Switch Themes
 #include vendor/overlays/switch/switches.mk
 
