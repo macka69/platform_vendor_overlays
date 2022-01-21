@@ -80,7 +80,7 @@ include vendor/overlays/prebuilt/fonts.mk
 #include vendor/overlays/switch/switches.mk
 
 # Statusbar Icons Themes
-#include vendor/overlays/icons/icons.mk
+include vendor/overlays/icons/icons.mk
 
 # Navbar styles
 include vendor/overlays/navbar/navbar.mk
