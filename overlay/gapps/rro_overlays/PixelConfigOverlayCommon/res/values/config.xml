@@ -144,9 +144,6 @@
     <!-- Colon separated list of package names that should be granted DND access -->
     <string name="config_defaultDndAccessPackages" translatable="false">com.google.android.GoogleCamera:com.google.android.gms:com.google.intelligence.sense:com.google.android.settings.intelligence:com.google.android.apps.wellbeing:com.google.android.apps.safetyhub:com.google.android.dialer</string>
 
-    <!-- Colon separated list of package names that should be granted Notification Listener access -->
-    <string name="config_defaultListenerAccessPackages" translatable="false">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead</string>
-
     <!-- Component name for the default module metadata provider on this device -->
     <string name="config_defaultModuleMetadataProvider" translatable="false">com.google.android.modulemetadata</string>
 
@@ -226,13 +223,6 @@
     <!-- Package name that will receive an explicit manifest broadcast for
          android.os.action.POWER_SAVE_MODE_CHANGED. -->
     <string name="config_powerSaveModeChangedListenerPackage" translatable="false">com.google.android.flipendo</string>
-
-    <!-- Component name for the activity that will be presenting the Recents UI, which will receive
-         special permissions for API related to fetching and presenting recent tasks. The default
-         configuration uses Launcehr3QuickStep as default launcher and points to the corresponding
-         recents component. When using a different default launcher, change this appropriately or
-         use the default systemui implementation: com.android.systemui/.recents.RecentsActivity -->
-    <string name="config_recentsComponentName" translatable="false">com.google.android.apps.nexuslauncher/com.android.quickstep.RecentsActivity</string>
 
     <!-- The package name for the default retail demo app.
          This package must be trusted, as it has the permissions to query the usage stats on the
